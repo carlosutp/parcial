@@ -1,0 +1,6 @@
+[Inputs]
+=cu_op[1:0]=
+=cu_op3[5:0]=
+[Outputs]
+=cu_aluop[5:0]=
+[BiDir]

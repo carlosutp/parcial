@@ -1,0 +1,38 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/carlos/Desktop/procesador/prosesador1/TB_procesador_isim_beh.exe -prj C:/Users/carlos/Desktop/procesador/prosesador1/TB_procesador_beh.prj work.TB_procesador 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/carlos/Desktop/procesador/prosesador1/sum.vhd" into library work
+Parsing VHDL file "C:/Users/carlos/Desktop/procesador/prosesador1/seu.vhd" into library work
+Parsing VHDL file "C:/Users/carlos/Desktop/procesador/prosesador1/rf.vhd" into library work
+Parsing VHDL file "C:/Users/carlos/Desktop/procesador/prosesador1/npc.vhd" into library work
+Parsing VHDL file "C:/Users/carlos/Desktop/procesador/prosesador1/mpx.vhd" into library work
+Parsing VHDL file "C:/Users/carlos/Desktop/procesador/prosesador1/im.vhd" into library work
+Parsing VHDL file "C:/Users/carlos/Desktop/procesador/prosesador1/cu.vhd" into library work
+Parsing VHDL file "C:/Users/carlos/Desktop/procesador/prosesador1/alu.vhd" into library work
+Parsing VHDL file "C:/Users/carlos/Desktop/procesador/prosesador1/prosesador.vhd" into library work
+Parsing VHDL file "C:/Users/carlos/Desktop/procesador/prosesador1/TB_procesador.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling architecture behavioral of entity sum [sum_default]
+Compiling architecture behavioral of entity npc [npc_default]
+Compiling architecture behavioral of entity im [im_default]
+Compiling architecture behavioral of entity cu [cu_default]
+Compiling architecture behavioral of entity rf [rf_default]
+Compiling architecture behavioral of entity mpx [mpx_default]
+Compiling architecture behavioral of entity seu [seu_default]
+Compiling architecture behavioral of entity alu [alu_default]
+Compiling architecture arq_procesador of entity prosesador [prosesador_default]
+Compiling architecture behavior of entity tb_procesador
+Time Resolution for simulation is 1ps.
+Waiting for 7 sub-compilation(s) to finish...
+Compiled 24 VHDL Units
+Built simulation executable C:/Users/carlos/Desktop/procesador/prosesador1/TB_procesador_isim_beh.exe
+Fuse Memory Usage: 34116 KB
+Fuse CPU Usage: 859 ms

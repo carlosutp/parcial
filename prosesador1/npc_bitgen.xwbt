@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\carlos\Desktop\procesador\prosesador1\npc.ncd
+OUTFILE=C:\Users\carlos\Desktop\procesador\prosesador1\npc.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=C:\Users\carlos\Desktop\procesador\prosesador1
+LICENSE=WebPack
+USER_INFO=211075077_0_0_037

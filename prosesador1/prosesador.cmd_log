@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/carlos/Desktop/procesador/prosesador1/prosesador.xst" -ofn "C:/Users/carlos/Desktop/procesador/prosesador1/prosesador.syr" 
+xst -intstyle ise -ifn "C:/Users/carlos/Desktop/procesador/prosesador1/prosesador.xst" -ofn "C:/Users/carlos/Desktop/procesador/prosesador1/prosesador.syr" 
+xst -intstyle ise -ifn "C:/Users/carlos/Desktop/procesador/prosesador1/prosesador.xst" -ofn "C:/Users/carlos/Desktop/procesador/prosesador1/prosesador.syr" 
+netgen -intstyle ise -ar Structure -tm prosesador -w -dir netgen/synthesis -ofmt vhdl -sim prosesador.ngc prosesador_synthesis.vhd 
+xst -intstyle ise -ifn "C:/Users/carlos/Desktop/procesador/prosesador1/prosesador.xst" -ofn "C:/Users/carlos/Desktop/procesador/prosesador1/prosesador.syr" 
+xst -intstyle ise -ifn "C:/Users/carlos/Desktop/procesador/prosesador1/prosesador.xst" -ofn "C:/Users/carlos/Desktop/procesador/prosesador1/prosesador.syr" 

@@ -1,0 +1,7 @@
+vhdtdtfi -prj prosesador1 -o C:/Users/carlos/Desktop/procesador/prosesador1/im.vhi -module im -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work im.vhd 
+vhdtdtfi -prj prosesador1 -o C:/Users/carlos/Desktop/procesador/prosesador1/im.vhi -module im -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work im.vhd 
+vhdtdtfi -prj prosesador1 -o C:/Users/carlos/Desktop/procesador/prosesador1/im.vhi -module im -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work im.vhd 
+vhdtdtfi -prj prosesador1 -o C:/Users/carlos/Desktop/procesador/prosesador1/im.vhi -module im -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work im.vhd 
+xst -intstyle ise -ifn "C:/Users/carlos/Desktop/procesador/prosesador1/im.xst" -ofn "C:/Users/carlos/Desktop/procesador/prosesador1/im.syr" 
+xst -intstyle ise -ifn "C:/Users/carlos/Desktop/procesador/prosesador1/im.xst" -ofn "C:/Users/carlos/Desktop/procesador/prosesador1/im.syr" 
+xst -intstyle ise -ifn "C:/Users/carlos/Desktop/procesador/prosesador1/im.xst" -ofn "C:/Users/carlos/Desktop/procesador/prosesador1/im.syr" 

@@ -1,0 +1,4 @@
+vhdtdtfi -lib work cu.vhd -prj prosesador1 -o cu.spl -module cu -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e cu.spl C:/Users/carlos/Desktop/procesador/prosesador1/cu.sym 
+vhdtdtfi -prj prosesador1 -o C:/Users/carlos/Desktop/procesador/prosesador1/cu.vhi -module cu -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work cu.vhd 
+vhdtdtfi -prj prosesador1 -o C:/Users/carlos/Desktop/procesador/prosesador1/cu.vhi -module cu -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work cu.vhd 

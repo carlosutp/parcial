@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/Users/carlos/Desktop/procesador/prosesador1/npc.xst" -ofn "C:/Users/carlos/Desktop/procesador/prosesador1/npc.syr" 
+netgen -intstyle ise -ar Structure -tm npc -w -dir netgen/synthesis -ofmt vhdl -sim npc.ngc npc_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 npc.ngc npc.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o npc_map.ncd npc.ngd npc.pcf 
+par -w -intstyle ise -ol high -t 1 npc_map.ncd npc.ncd npc.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml npc.twx npc.ncd -o npc.twr npc.pcf 
+bitgen -intstyle ise -f npc.ut npc.ncd 
+vhdtdtfi -prj prosesador1 -o C:/Users/carlos/Desktop/procesador/prosesador1/npc.vhi -module npc -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work npc.vhd 
+vhdtdtfi -prj prosesador1 -o C:/Users/carlos/Desktop/procesador/prosesador1/npc.vhi -module npc -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work npc.vhd 

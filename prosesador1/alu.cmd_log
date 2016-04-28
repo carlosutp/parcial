@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/carlos/Desktop/procesador/prosesador1/alu.xst" -ofn "C:/Users/carlos/Desktop/procesador/prosesador1/alu.syr" 
+netgen -intstyle ise -ar Structure -tm alu -w -dir netgen/synthesis -ofmt vhdl -sim alu.ngc alu_synthesis.vhd 
+vhdtdtfi -prj prosesador1 -o C:/Users/carlos/Desktop/procesador/prosesador1/alu.vhi -module alu -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work alu.vhd 
